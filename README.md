@@ -6,8 +6,8 @@
 3. 在浏览器中输入localhost:port查看是否成功运行
 4. 下载ngrok,并将其移动到项目下, 使用命令```./ngrok http port```回车
 5. 成功后,会生成链接.
-5.1. 使用生成的地址在浏览器中打开, 然后使用Dev分析网站的卡顿
-5.2 打开```https://developers.google.com/speed/pagespeed/insights/?hl=zh-CN```,将ngrok生成的链接放上去,点击分析.根据分析出来的结果进行优化网页.
+* 使用生成的地址在浏览器中打开, 然后使用Dev分析网站的卡顿
+* 打开```https://developers.google.com/speed/pagespeed/insights/?hl=zh-CN```,将ngrok生成的链接放上去,点击分析.根据分析出来的结果进行优化网页.
 
 
 ## 网站性能优化项目
