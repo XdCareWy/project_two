@@ -1,3 +1,15 @@
+# Introduction
+这个项目是UDacity的第二个项目,目的是通过课程学会优化网站的性能.
+# Step
+1. ```git@github.com:XdCareWy/project_two.git```
+2. 使用命令```python -m SimpleHTTPServer 端口```启动服务
+3. 在浏览器中输入localhost:port查看是否成功运行
+4. 下载ngrok,并将其移动到项目下, 使用命令```./ngrok http port```回车
+5. 成功后,会生成链接.
+5.1. 使用生成的地址在浏览器中打开, 然后使用Dev分析网站的卡顿
+5.2 打开```https://developers.google.com/speed/pagespeed/insights/?hl=zh-CN```,将ngrok生成的链接放上去,点击分析.根据分析出来的结果进行优化网页.
+
+
 ## 网站性能优化项目
 
 你要做的是尽可能优化这个在线项目的速度。注意，请应用你之前在[网站性能优化课程](https://cn.udacity.com/course/website-performance-optimization--ud884/)中学习的技术来优化关键渲染路径并使这个页面尽可能快的渲染。
